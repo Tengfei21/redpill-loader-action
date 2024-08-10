@@ -13,7 +13,7 @@ jobs:
         with:
           submodules: 'true'
       - name: Build DS3622xs+ 7.2.1
-        id: build-ds3622xsp-70
+        id: build-ds3622xsp-721
         run: |
             bash build-ds3622xsp-7.2.1.sh
       - name: Archive DS3622x+ 7.2.1 loader image
